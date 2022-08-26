@@ -316,6 +316,7 @@ border: 1px solid var(--accent-color);
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .maine-footer-address {
   margin-right: 70px;
@@ -329,6 +330,7 @@ border: 1px solid var(--accent-color);
   color: #ffffff;
 
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .footer-social-list {
   display: flex;
