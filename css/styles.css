@@ -64,7 +64,8 @@ img {
 /* *Падинги для всех секций кроме героя*/
 .metier-section,
 .team-section,
-.portfolio-section {
+.portfolio-section,
+.clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -240,6 +241,27 @@ img {
 .hover-icon .social-icon:hover {
   fill: #ffffff;
   background-color: var(--accent-color);
+}
+
+/* * Блок наши клиенты */
+.clients-social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.clients-icon {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: #AFB1B8;
+}
+.clients-icon:hover {
+fill: var(--accent-color);
+border: 1px solid var(--accent-color);
 }
 
 /* *Логотип */
