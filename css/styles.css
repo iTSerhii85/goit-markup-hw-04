@@ -80,6 +80,65 @@ img {
   margin: 0 auto;
 }
 
+/* *Хедер */
+.icon-list {
+  display: flex;
+  align-items: center;
+}
+.hat-icon-img {
+  fill: currentColor;
+  margin-right: 10px;
+}
+/* Ссылки */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  padding: 32px 0;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 32px 0;
+}
+.auth-nav :hover,
+.auth-nav :focus {
+  color: var(--accent-color);
+}
+/* Флекс хедера */
+.site-nav {
+  display: flex;
+  gap: 50px;
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+}
+.hat .container {
+  display: flex;
+  align-items: center;
+}
+
 /* *Блок герой */
 .hero {
   text-align: center;
@@ -188,7 +247,7 @@ img {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 
   margin-bottom: 30px;
 }
@@ -216,7 +275,7 @@ img {
   margin: 0;
   margin-bottom: 16px;
 }
-.team-list>li {
+.team-list > li {
   background-color: #ffffff;
 
   width: 270px;
@@ -245,7 +304,7 @@ img {
   height: 44px;
   border-radius: 50%;
 
-  fill: #AFB1B8;
+  fill: #afb1b8;
   background-color: #ffffff;
 }
 .hover-icon .social-icon:hover {
@@ -263,15 +322,15 @@ img {
   display: flex;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .clients-icon:hover {
-fill: var(--accent-color);
-border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /* *Логотип */
@@ -356,7 +415,7 @@ border: 1px solid var(--accent-color);
   border-radius: 50%;
 
   fill: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .hover-icon .social-icon:hover {
   fill: #ffffff;
@@ -365,60 +424,10 @@ border: 1px solid var(--accent-color);
 .hover-icon .footer-social-icon:hover {
   background-color: var(--accent-color);
 }
-
-/* *Ссылки */
-.site-nav .link {
-  color: var(--title-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  padding: 32px 0;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .current {
-  color: var(--accent-color);
-}
-.auth-nav .link {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  padding: 32px 0;
-}
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
-}
+/* Ссылки */
 .footer-list .link:hover,
 .footer-list .link:focus {
   color: var(--accent-color);
-}
-
-/* *Флекс хедера */
-.site-nav {
-  display: flex;
-  gap: 50px;
-}
-.auth-nav {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
-}
-.container nav {
-  display: flex;
-  align-items: center;
-}
-.hat .container {
-  display: flex;
-  align-items: center;
 }
 
 /* *Кнопки страницы портфолио*/
@@ -471,7 +480,8 @@ border: 1px solid var(--accent-color);
 .gallery li {
   width: 370px;
 
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .gallery {
   display: flex;
